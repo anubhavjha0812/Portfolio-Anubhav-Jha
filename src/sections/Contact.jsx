@@ -56,12 +56,7 @@ export const Contact = () => {
       const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
       const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
-      await emailjs.sendForm(
-        serviceId,
-        templateId,
-        e.target,
-        publicKey
-      );
+      await emailjs.sendForm(serviceId, templateId, e.target, publicKey);
 
       setSubmitStatus({
         type: "success",
@@ -108,18 +103,20 @@ export const Contact = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
+        {/* Grid */}
+        <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto w-full overflow-hidden">
+          
           {/* Form */}
-          <div className="glass p-8 rounded-3xl border border-primary/30">
-            <form className="space-y-6" onSubmit={handleSubmit}>
-              {/* Hidden field */}
+          <div className="glass p-8 rounded-3xl border border-primary/30 w-full min-w-0">
+            <form className="space-y-6 w-full" onSubmit={handleSubmit}>
+              
               <input
                 type="hidden"
                 name="time"
                 value={new Date().toLocaleString()}
               />
 
-              <div>
+              <div className="w-full">
                 <label className="block text-sm font-medium mb-2">
                   Name
                 </label>
@@ -132,11 +129,11 @@ export const Contact = () => {
                   onChange={(e) =>
                     setFormData({ ...formData, name: e.target.value })
                   }
-                  className="w-full px-4 py-3 bg-surface rounded-xl border border-border outline-none"
+                  className="w-full max-w-full px-4 py-3 bg-surface rounded-xl border border-border outline-none box-border"
                 />
               </div>
 
-              <div>
+              <div className="w-full">
                 <label className="block text-sm font-medium mb-2">
                   Email
                 </label>
@@ -149,11 +146,11 @@ export const Contact = () => {
                   onChange={(e) =>
                     setFormData({ ...formData, email: e.target.value })
                   }
-                  className="w-full px-4 py-3 bg-surface rounded-xl border border-border outline-none"
+                  className="w-full max-w-full px-4 py-3 bg-surface rounded-xl border border-border outline-none box-border"
                 />
               </div>
 
-              <div>
+              <div className="w-full">
                 <label className="block text-sm font-medium mb-2">
                   Message
                 </label>
@@ -166,7 +163,7 @@ export const Contact = () => {
                   onChange={(e) =>
                     setFormData({ ...formData, message: e.target.value })
                   }
-                  className="w-full px-4 py-3 bg-surface rounded-xl border border-border outline-none resize-none"
+                  className="w-full max-w-full px-4 py-3 bg-surface rounded-xl border border-border outline-none resize-y box-border"
                 />
               </div>
 
@@ -205,7 +202,7 @@ export const Contact = () => {
           </div>
 
           {/* Contact Info */}
-          <div className="space-y-6">
+          <div className="space-y-6 min-w-0">
             <div className="glass rounded-3xl p-8">
               <h3 className="text-xl font-semibold mb-6">
                 Contact Information
@@ -222,11 +219,13 @@ export const Contact = () => {
                       <item.icon className="w-5 h-5 text-primary" />
                     </div>
 
-                    <div>
+                    <div className="min-w-0">
                       <div className="text-sm text-muted-foreground">
                         {item.label}
                       </div>
-                      <div className="font-medium">{item.value}</div>
+                      <div className="font-medium break-words">
+                        {item.value}
+                      </div>
                     </div>
                   </a>
                 ))}
