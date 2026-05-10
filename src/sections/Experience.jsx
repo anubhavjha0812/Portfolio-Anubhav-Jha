@@ -1,30 +1,30 @@
 const experiences = [
   {
+    period: "May 2026 — Present",
+    role: "Summer Research Intern",
+    company: "National Institute of Technology Rourkela",
+    description:
+      "Working on biomedical signal and image processing using ECG, EEG, EMG, and medical imaging data, applying preprocessing, feature extraction, and Deep Learning techniques.",
+    technologies: ["Deep Learning", "Signal Processing", "Image Processing"],
+    current: true,
+  },
+  {
     period: "Oct 2025 — Dec 2025",
     role: "Quant Developer Intern",
     company: "Alaka Research LLP",
     description:
-      "Developed financial models for trading and investment use cases. Built DRONA, a backtesting engine to evaluate multiple strategies and generate performance reports.",
-    technologies: ["Python", "Pandas", "NumPy", "Backtesting", "Finance"],
+      "Processed large-scale financial datasets using AWS (S3, Glue) with ETL workflows. Built and optimized backtesting pipelines, reducing processing time by ~20%.",
+    technologies: ["Python", "AWS", "SQL", "Time-series Models", "ETL"],
     current: false,
   },
   {
-    period: "Nov 2024 — Jan 2025",
-    role: "Quant Developer Intern",
-    company: "Uniton Technologies Pvt. Ltd.",
-    description:
-      "Designed and built an automated trading system for precise market entry. Optimized strategy parameters, improving performance and risk metrics.",
-    technologies: ["Python", "Algorithms", "Trading Systems", "Data Analysis"],
-    current: false,
-  },
-  {
-    period: "2023 — Present",
+    period: "2023 — 2027",
     role: "B.Tech CSE (AI & ML)",
-    company: "VIT Bhopal University",
+    company: "Vellore Institute of Technology, Bhopal",
     description:
-      "Pursuing Computer Science with specialization in AI & ML. Focused on data structures, system design, machine learning, and backend systems.",
+      "GPA: 8.5/10. Coursework: DSA, OOPS, DBMS, Probability, Statistics, Applied Linear Algebra, Machine Learning, Linux.",
     technologies: ["DSA", "Machine Learning", "System Design", "DBMS"],
-    current: true,
+    current: false,
   },
 ];
 

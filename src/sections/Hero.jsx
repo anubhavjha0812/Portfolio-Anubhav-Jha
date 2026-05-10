@@ -11,23 +11,24 @@ import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const skills = [
   "Python",
-  "C++",
   "Java",
   "JavaScript",
   "SQL",
   "React.js",
+  "Tailwind CSS",
   "Node.js",
   "Express.js",
+  "FastAPI",
   "MongoDB",
+  "PostgreSQL",
   "AWS",
   "Docker",
-  "REST API",
   "Machine Learning",
-  "TensorFlow.js",
+  "Deep Learning",
   "NumPy",
   "Pandas",
   "System Design",
-  "CI/CD",
+  "Git",
 ];
 
 export const Hero = () => {
@@ -69,7 +70,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Quant Developer • AI/ML Engineer
+                Software Engineer • AI/ML Specialist
               </span>
             </div>
 
@@ -81,14 +82,14 @@ export const Hero = () => {
                 systems for
                 <br />
                 <span className="font-serif italic font-normal text-white">
-                  financial markets.
+                  complex domains.
                 </span>
               </h1>
 
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Anubhav Jha — a Quant Developer and AI/ML Engineer. I design
-                automated trading systems, backtesting engines, and scalable full-stack
-                applications focused on performance and data-driven decision making.
+                Hi, I'm Anubhav Jha — a Software Engineer and AI/ML Specialist. I build
+                automated trading systems, AI-powered applications, and scalable full-stack
+                solutions focused on performance and data-driven decision making.
               </p>
             </div>
 

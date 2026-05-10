@@ -3,27 +3,27 @@ import { Code2, Lightbulb, Rocket, Users } from "lucide-react";
 const highlights = [
   {
     icon: Code2,
-    title: "Quant Systems",
+    title: "Data & ETL",
     description:
-      "Designing automated trading systems and backtesting engines for data-driven decision making.",
+      "Designing scalable ETL workflows and optimized data pipelines for fast and robust analysis.",
   },
   {
     icon: Rocket,
     title: "Performance",
     description:
-      "Optimizing trading strategies and systems for speed, efficiency, and reliability.",
+      "Optimizing systems and strategies for speed, efficiency, and reliability.",
   },
   {
     icon: Users,
     title: "Collaboration",
     description:
-      "Working with teams to build scalable solutions across finance and technology domains.",
+      "Working with teams to build scalable solutions across diverse technology domains.",
   },
   {
     icon: Lightbulb,
     title: "AI/ML Innovation",
     description:
-      "Applying machine learning and AI to solve real-world financial and accessibility problems.",
+      "Applying deep learning and AI models for signal processing, content generation, and intelligent systems.",
   },
 ];
 
@@ -51,20 +51,19 @@ export const About = () => {
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
                 I'm Anubhav Jha, a Computer Science undergraduate specializing in
-                AI & ML at VIT Bhopal. My core focus lies in quantitative finance,
-                algorithmic trading, and scalable backend systems.
+                AI & ML at VIT Bhopal with a GPA of 8.5/10. My core focus lies in quantitative development,
+                applied machine learning, and scalable backend systems.
               </p>
 
               <p>
-                I have experience building automated trading systems, optimizing
-                strategies, and developing backtesting engines like DRONA to
-                evaluate performance across multiple market conditions.
+                I have experience working with AWS and ETL workflows for financial data at Alaka Research LLP,
+                and researching deep learning techniques for biomedical signal and image processing at NIT Rourkela.
               </p>
 
               <p>
-                Alongside finance, I build full-stack and AI-powered applications
-                using MERN, TensorFlow.js, and cloud platforms, focusing on
-                performance, scalability, and real-world impact.
+                Alongside this, I build full-stack and AI-powered applications
+                using MERN, Python, and cloud platforms, focusing on
+                performance, seamless user experience, and real-world impact.
               </p>
             </div>
 
