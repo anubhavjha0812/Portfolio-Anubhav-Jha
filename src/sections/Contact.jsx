@@ -26,7 +26,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Location",
-    value: "Bhopal, India",
+    value: "Munger, Bihar",
     href: "#",
   },
 ];

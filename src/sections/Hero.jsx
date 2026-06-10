@@ -11,24 +11,26 @@ import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const skills = [
   "Python",
-  "Java",
   "JavaScript",
+  "Java",
   "SQL",
+  "PostgreSQL",
+  "MongoDB",
   "React.js",
   "Tailwind CSS",
+  "Redux Toolkit",
   "Node.js",
   "Express.js",
   "FastAPI",
-  "MongoDB",
-  "PostgreSQL",
-  "AWS",
   "Docker",
-  "Machine Learning",
+  "AWS",
+  "Git",
   "Deep Learning",
+  "CNNs",
+  "RNNs",
   "NumPy",
   "Pandas",
   "System Design",
-  "Git",
 ];
 
 export const Hero = () => {

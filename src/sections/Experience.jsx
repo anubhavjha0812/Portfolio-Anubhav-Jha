@@ -1,10 +1,10 @@
 const experiences = [
   {
     period: "May 2026 — Present",
-    role: "Summer Research Intern",
+    role: "Summer AI Research Intern",
     company: "National Institute of Technology Rourkela",
     description:
-      "Working on biomedical signal and image processing using ECG, EEG, EMG, and medical imaging data, applying preprocessing, feature extraction, and Deep Learning techniques.",
+      "Conducting research in Biomedical AI, leveraging CNNs, attention mechanisms, transfer learning, and segmentation models on medical images.",
     technologies: ["Deep Learning", "Signal Processing", "Image Processing"],
     current: true,
   },
@@ -13,7 +13,7 @@ const experiences = [
     role: "Quant Developer Intern",
     company: "Alaka Research LLP",
     description:
-      "Processed large-scale financial datasets using AWS (S3, Glue) with ETL workflows. Built and optimized backtesting pipelines, reducing processing time by ~20%.",
+      "Processed large-scale financial datasets using AWS (S3, Glue) with ETL workflows. Built and optimized backtesting pipelines, reducing overall data processing time by ~8%.",
     technologies: ["Python", "AWS", "SQL", "Time-series Models", "ETL"],
     current: false,
   },
@@ -22,8 +22,8 @@ const experiences = [
     role: "B.Tech CSE (AI & ML)",
     company: "Vellore Institute of Technology, Bhopal",
     description:
-      "GPA: 8.5/10. Coursework: DSA, OOPS, DBMS, Probability, Statistics, Applied Linear Algebra, Machine Learning, Linux.",
-    technologies: ["DSA", "Machine Learning", "System Design", "DBMS"],
+      "GPA: 8.5/10. Coursework: DSA, OOPS, DBMS, Probability, Statistics, Applied Linear Algebra, Game-Theory, Linux.",
+    technologies: ["DSA", "Deep Learning", "System Design", "DBMS"],
     current: false,
   },
 ];
