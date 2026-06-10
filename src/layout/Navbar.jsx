@@ -1,6 +1,7 @@
 import { Button } from "@/components/Button";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 const navLinks = [
   { href: "#about", label: "About" },
@@ -81,6 +82,7 @@ export const Navbar = () => {
               Resume
             </Button>
           </a>
+          <ThemeToggle />
         </div>
 
         {/* Mobile Toggle */}
@@ -125,6 +127,10 @@ export const Navbar = () => {
             >
               <Button variant="secondary">Download Resume</Button>
             </a>
+            
+            <div className="flex justify-center mt-4">
+              <ThemeToggle />
+            </div>
           </div>
         </div>
       )}

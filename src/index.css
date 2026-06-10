@@ -1,26 +1,56 @@
 @import "tailwindcss";
 
 @theme {
-  --color-background: #0f1418;
-  --color-foreground: #f0f2f5;
+  --color-background: var(--bg);
+  --color-foreground: var(--fg);
 
-  --color-card: #141a1f;
+  --color-card: var(--card);
 
-  --color-primary: #20b2a6;
-  --color-primary-foreground: #ffffff;
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-fg);
 
-  --color-secondary: #1f2830;
-  --color-secondary-foreground: #20b2a6;
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-fg);
 
-  --color-muted: #252e37;
-  --color-muted-foreground: #7a8491;
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-fg);
 
-  --color-border: #242b32;
+  --color-border: var(--border);
 
   --radius: 0.75rem;
 
-  --color-highlight: #f5a623;
-  --color-surface: #1a2329;
+  --color-highlight: var(--highlight);
+  --color-surface: var(--surface);
+}
+
+:root {
+  --bg: #ffffff;
+  --fg: #0f1418;
+  --card: #f8fafc;
+  --primary: #20b2a6;
+  --primary-fg: #ffffff;
+  --secondary: #f1f5f9;
+  --secondary-fg: #20b2a6;
+  --muted: #e2e8f0;
+  --muted-fg: #64748b;
+  --border: #e2e8f0;
+  --highlight: #f5a623;
+  --surface: #f1f5f9;
+}
+
+.dark {
+  --bg: #0f1418;
+  --fg: #f0f2f5;
+  --card: #141a1f;
+  --primary: #20b2a6;
+  --primary-fg: #ffffff;
+  --secondary: #1f2830;
+  --secondary-fg: #20b2a6;
+  --muted: #252e37;
+  --muted-fg: #7a8491;
+  --border: #242b32;
+  --highlight: #f5a623;
+  --surface: #1a2329;
 }
 
 @layer base {
