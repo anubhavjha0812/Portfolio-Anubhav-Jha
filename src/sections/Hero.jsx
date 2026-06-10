@@ -83,7 +83,7 @@ export const Hero = () => {
                 <br />
                 systems for
                 <br />
-                <span className="font-serif italic font-normal text-white">
+                <span className="font-serif italic font-normal text-foreground">
                   complex domains.
                 </span>
               </h1>

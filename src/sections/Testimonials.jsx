@@ -62,7 +62,7 @@ export const Testimonials = () => {
 
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 text-secondary-foreground">
             Feedback reflecting{" "}
-            <span className="font-serif italic font-normal text-white">
+            <span className="font-serif italic font-normal text-foreground">
               growth and potential.
             </span>
           </h2>

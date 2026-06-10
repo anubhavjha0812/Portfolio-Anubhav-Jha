@@ -93,7 +93,7 @@ export const Contact = () => {
 
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 text-secondary-foreground">
             Discuss{" "}
-            <span className="font-serif italic font-normal text-white">
+            <span className="font-serif italic font-normal text-foreground">
               opportunities.
             </span>
           </h2>
