@@ -4,17 +4,17 @@ import { useState } from "react";
 const testimonials = [
   {
     quote:
-      "Anubhav demonstrates strong problem-solving ability and a clear understanding of quantitative systems. His approach is disciplined and focused on building scalable solutions.",
-    author: "Senior Developer",
-    role: "Alaka Research LLP",
+      "I recommend Anubhav for the position",
+    author: "Mohammad Rafi Lone",
+    role: "Senior Assistant Professor and Researcher",
     avatar:
       "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
   },
   {
     quote:
-      "He quickly grasped trading system requirements and contributed effectively. His curiosity and ability to iterate over strategies show strong growth potential.",
-    author: "Team Lead",
-    role: "Uniton Technologies Pvt. Ltd.",
+      "He has a lot of interest in research his intent to learn new things is an appreciable quality. He needs proper guidance to stream line his interest. I recommend him as a good learner towards his particular research interest.",
+    author: "Suresh Babu",
+    role: "Researcher",
     avatar:
       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
   },
